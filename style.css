@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'f';
+    src: url('Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'fb';
+    src: url('Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'fi';
+    src: url('Roboto-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'fbb';
+    src: url('Roboto-Bold.ttf');
+}
+
+body *{
+	font-family: 'f';
+}
+.block1{
+	height: 40px;
+	width: 100%;
+	margin: 0px;
+	display: flex;
+	background-color: black;
+}
+.city{
+	height: 30px;
+	margin: 5px 80px;
+	background-color: black;
+	color: white;
+	font-size: 17px;
+	border: 0 solid black;
+	border-bottom: 2px solid white;
+}
+.city option{
+	height: 30px;
+	background-color: black;
+	color: white;
+	font-size: 17px;
+}
+.enter{
+	height: 30px;
+	margin: 3px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: 83px;
+	color: white;
+	font-size: 17px;
+	border: 0 solid black;
+	border-bottom: 2px solid white;
+	
+}
+.enter div{
+	margin-top: 5px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.block2{
+	display: flex;
+}
+.block2 h1{
+	margin: 20px 80px; 
+	width: 250px;
+	font-family: 'fb';
+}
+h1 span{
+	color: #f93c00;
+	font-family: 'fbb';
+}
+.block2 input{
+	height: 30px;
+	font-size: 17px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 0 10px;
+	color: #f93c00;
+	background-color: #ffffff;
+	font-family: 'fb';
+}
+.kat{
+	height: 30px;
+	font-size: 17px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-left: 725px;
+	margin-top: 30px;
+}
+.kat option{
+	height: 30px;
+	font-size: 17px;
+}
+
+.block3{
+	height: auto;
+	margin: 15px 70px;
+	
+}
+.merch{
+	height: 520px;
+	width: 310px;
+	margin: 0 10px 20px 10px;
+	border: 1px solid #999999;
+	border-radius: 0 0 10px 10px;
+	float: left;
+}
+img{
+	width: 310px;
+}
+table{
+	margin-left: 10px;
+}
+.nm{
+	height: 32px;
+	width: 220px;
+	font-size: 27px;
+	font-family: 'fi';
+}
+.pr{
+	height: 23px;
+	width: 220px;
+	font-family: 'fbb';
+	color: #f93c00;
+	font-size: 22px;
+}
+.buy{
+	width: 70px;
+}
+.merch select{
+	height: 30px;
+	background-color: #f5f5f5;
+	font-size: 17px;
+	border: 1px solid black;
+	border-radius: 6px;
+}
+.tobuy{
+	float: right;
+	position:fixed;
+    bottom:0;
+	margin: 0 0 7px 1037px;
+	height: 60px;
+	font-size: 28px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 0 80px;
+	color: white;
+	background-color: #fc4c4c;
+	font-family: 'fb';
+}
+.korz{
+	height: 30px;
+	font-size: 32px;
+	margin-left: auto;
+	margin-right: 83px;
+	margin-top: 20px;
+	font-family: 'fb';
+}
+.gr{
+	height: 32px;
+	width: 850px;
+	margin: 0 400px 10px 10px;
+	font-size: 27px;
+	font-family: 'fi';
+	border: 1px solid #999999;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+}
+.wh{
+	height: 32px;
+	width: 850px;
+	margin: 0 400px 10px 10px;
+	font-size: 27px;
+	font-family: 'fi';
+	border: 1px solid #999999;
+	border-radius: 5px;
+	background-color: white;
+}
+.empty{
+	width: 1100px;
+	text-align: center;
+	font-size: 55px;
+	font-family: 'fi';
+}
+.name{
+	width: 440px;
+	margin: 0 0 0 10px;
+	padding-left: 10px;
+}
+.price{
+	margin-right: 0px;
+	padding-right: 10px;
+	font-family: 'fbb';
+	color: #f93c00;
+	font-size: 22px;
+	text-align: right;
+	vertical-align: center;
+}
+.sum{
+	position: absolute;
+	height: 250px;
+	width: 350px;
+	top: 133.4px;
+	right: 80px;
+	border: 1px solid #999999;
+	border-radius: 10px;
+}
+.zakaz{
+	margin: 20px 0;
+	font-family: fbb;
+	font-size: 36px;
+	text-align: center;
+}
+.opl{
+	width: 100px;
+	padding-left: 10px;
+	font-family: fb;
+	font-size: 20px;
+	vertical-align: center;
+}
+.itog{
+	width: 200px;
+	font-family: fbb;
+	font-size: 30px;
+	vertical-align: center;
+	text-align: right;
+	color: #f93c00;
+}
+.b{
+	margin: 70px 20px 0 18px;
+	height: 40px;
+	width: 310px;
+	font-size: 28px;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: #fc4c4c;
+	font-family: 'fb';
+	text-align: center;
+}
